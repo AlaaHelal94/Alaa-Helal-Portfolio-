@@ -1,0 +1,122 @@
+body {
+font-family : 'Lato', sans-serif;
+color : #000000;
+font-weight : 300;
+}
+
+.text-thin {
+color : #000000;
+font-weight : 100;
+}
+
+.text-muted {
+color : #b3b3b3;
+}
+
+.title-super {
+font-size : 40px;
+}
+
+.title-thin {
+margin-top : 20px;
+}
+
+hr {
+border-top : 2px solid #b3b3b3;
+}
+
+/* ==========================================================================
+   1. RESPONSIVE
+   ========================================================================== */
+
+/* 1.1 LARGE DEVICES, WIDE SCREENS
+   ========================================================================== */
+
+/*@media only screen and (max-width: 1200px) {}*/
+
+/* 1.2 MEDIUM DEVICES, DESKTOPS
+   ========================================================================== */
+
+@media only screen and (max-width: 992px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* 1.3 SMALL DEVICES, TABLETS LANDSCAPE
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* 1.4 SMALL DEVICES, TABLETS PORTRAIT
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
+
+/* 1.5 EXTRA SMALL DEVICES, PHONES
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
+
+/* 1.6 CUSTOM, IPHONE RETINA
+   ========================================================================== */
+
+@media only screen and (max-width: 360px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
